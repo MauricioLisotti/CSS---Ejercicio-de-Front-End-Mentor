@@ -1,0 +1,288 @@
+@media only screen and (min-width: 768px) {
+
+  body {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    align-items: center;
+    img{
+      width: 50px;
+      height: 32px;
+    }
+    .container{
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      overflow: hidden;    
+      margin: 2rem;
+      
+      h1{
+        font-family: 'Big Shoulders Display';
+        color: hsl(0, 0%, 95%);
+      }
+      p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75); 
+        font-weight: 400;
+      }
+      div{
+          padding: 40px;
+      }
+      .sedans{
+          background-color: hsl(31, 77%, 52%);
+          button{
+            color:hsl(31, 77%, 52%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+    }
+      .suvs{
+          background-color: hsl(184, 100%, 22%);
+          button{
+            color:hsl(184, 100%, 22%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+      }
+      .luxury{
+          background-color:hsl(179, 100%, 13%);
+          button{
+            color:hsl(179, 100%, 13%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-top-right-radius: 12px;
+          border-bottom-right-radius: 12px;
+      }
+    }
+    button{
+      text-decoration: none;
+      margin-top: 60px;
+      padding: 13px 27px;
+      border: 0px;
+      border-radius: 26px;
+      -webkit-border-radius: 26px;
+      -moz-border-radius: 26px;
+      -ms-border-radius: 26px;
+      -o-border-radius: 26px;
+      font-family: 'Lexend Deca', sans-serif;
+      border: 2px solid hsl(0, 0%, 95%);
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      display: inline-block;
+      
+  }
+    button:hover{
+      color: hsl(0, 0%, 95%);
+      background:transparent;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  
+  body {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    img{
+      width: 50px;
+      height: 32px;
+    }
+    .container{
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      margin: 20px;
+
+    }
+    .main {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      align-items: center;
+
+      h1{
+        font-family: 'Big Shoulders Display';
+        color: hsl(0, 0%, 95%);
+      }
+      p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75); 
+        font-weight: 400;
+      }
+      div{
+          padding: 40px;
+      }
+      .sedans{
+          background-color: hsl(31, 77%, 52%);
+          button{
+            color:hsl(31, 77%, 52%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+    }
+      .suvs{
+          background-color: hsl(184, 100%, 22%);
+          button{
+            color:hsl(184, 100%, 22%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+      }
+      .luxury{
+          background-color:hsl(179, 100%, 13%);
+          button{
+            color:hsl(179, 100%, 13%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-bottom-left-radius: 12px;
+          border-bottom-right-radius: 12px;
+      }
+    }
+    button{
+      text-decoration: none;
+      margin-top: 60px;
+      padding: 13px 27px;
+      border: 0px;
+      border-radius: 26px;
+      -webkit-border-radius: 26px;
+      -moz-border-radius: 26px;
+      -ms-border-radius: 26px;
+      -o-border-radius: 26px;
+      font-family: 'Lexend Deca', sans-serif;
+      border: 2px solid hsl(0, 0%, 95%);
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      display: inline-block;
+      
+  }
+    button:hover{
+      color: hsl(0, 0%, 95%);
+      background:transparent;
+    }
+  }
+
+}
+@media only screen and (max-width: 425px) {
+  
+  body {
+    display: flex;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    align-items: center;
+    img{
+      width: 50px;
+      height: 32px;
+    }
+    .container{
+      align-items: center;
+      width: 100%;
+      justify-content: center;
+      margin: 10px;
+
+    }
+    .main {
+      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      align-items: center;    
+      
+      h1{
+        font-family: 'Big Shoulders Display';
+        color: hsl(0, 0%, 95%);
+      }
+      p{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75); 
+        font-weight: 400;
+      }
+      div{
+          padding: 40px;
+      }
+      .sedans{
+          background-color: hsl(31, 77%, 52%);
+          button{
+            color:hsl(31, 77%, 52%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-top-left-radius: 12px;
+          border-bottom-left-radius: 12px;
+    }
+      .suvs{
+          background-color: hsl(184, 100%, 22%);
+          button{
+            color:hsl(184, 100%, 22%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+      }
+      .luxury{
+          background-color:hsl(179, 100%, 13%);
+          button{
+            color:hsl(179, 100%, 13%);
+          }
+          button:hover{
+            color: hsl(0, 0%, 95%);
+          }
+          border-top-right-radius: 12px;
+          border-bottom-right-radius: 12px;
+      }
+    }
+    button{
+      text-decoration: none;
+      margin-top: 60px;
+      padding: 13px 27px;
+      border: 0px;
+      border-radius: 26px;
+      -webkit-border-radius: 26px;
+      -moz-border-radius: 26px;
+      -ms-border-radius: 26px;
+      -o-border-radius: 26px;
+      font-family: 'Lexend Deca', sans-serif;
+      border: 2px solid hsl(0, 0%, 95%);
+      transition: all .4s ease;
+      -webkit-transition: all .4s ease;
+      -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+      -o-transition: all .4s ease;
+      display: inline-block;
+      
+  }
+    button:hover{
+      color: hsl(0, 0%, 95%);
+      background:transparent;
+    }
+  }
+
+}
